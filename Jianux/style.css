@@ -913,7 +913,9 @@ b{font-weight:bold}
 }
 .reader-font1 .notebooks-menu,.reader-font1 .notebooks-menu h4{font-family:Georgia,"Times New Roman",Times,"Songti SC","SimSun",serif !important}
 .reader-font2 .article div,.reader-font2 .article h1,.reader-font2 .article h2,.reader-font2 .article h3,.reader-font2 .article blockquote,.reader-font2 .article blockquote p{font-family:"lucida grande","lucida sans unicode",lucida,"Helvetica Neue",helvetica,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif !important}
-.container .article,.preview-mode .preview,.kalamu-area,.kalamu-area:focus{bottom:0;padding:30px;padding-bottom:0;padding-right:0px;font-family:'微软雅黑';font-size:14px;font-weight:100;line-height:30px;color:#2f2f2f}
+.container .article,.preview-mode .preview,.kalamu-area,.kalamu-area:focus{bottom:0;padding:30px;padding-bottom:30px;padding-right:30px;font-family:'微软雅黑';font-size:14px;font-weight:100;line-height:30px;color:#2f2f2f;
+box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
 .container .article p,.preview-mode .preview p,.kalamu-area p,.kalamu-area:focus p{margin:0 0 25px 0}
 .container .article p,.preview-mode .preview p,.kalamu-area p,.kalamu-area:focus p{margin:0 0 25px 0}
 .container .article li p,.preview-mode .preview li p,.kalamu-area li p,.kalamu-area:focus li p{overflow:visible}
