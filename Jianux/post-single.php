@@ -1,7 +1,9 @@
-<div class="container">
-	 <!--<div style="position:fixed;right:0;top:0;">
-        <iframe width="100%" height="550" class="share_self" frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=100&skin=11&isTitle=0&noborder=1&isWeibo=1&isFans=1&uid=3206206100&verifier=fd3040f8&dpc=1"></iframe>
+ <!--<div style="position:fixed;right:0;top:0;">
+        <iframe width="240px;" height="550" class="share_self" frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=100&skin=11&isTitle=0&noborder=1&isWeibo=1&isFans=1&uid=3206206100&verifier=fd3040f8&dpc=1"></iframe>
     </div>-->
+<!--git无法提交是什么情况-->
+<div class="container">
+	
 <div class="article">
 <h1 class="single-title" itemprop="name"><?php the_title(); ?></h1> 
         <div class="article-info">
