@@ -1,16 +1,16 @@
-## ·Â¼òÊéÖ÷Ìâ(¸öÈËÊ¹ÓÃ)
+## ä»¿ç®€ä¹¦ä¸»é¢˜(ä¸ªäººä½¿ç”¨)
 
 ------
 
-ÔÚÐÂÀËÔÆÆ½Ì¨ÉÏÓÃwordpress´î½¨ÁËÒ»¸ö¸öÈË²©¿Í:[·çÐ¾¤ÎÕ¾µã][1]¡£×Ô¼º±È½Ï³çÉÐ¼ò½à¡¢¿íÆÁµÄ·ç¸ñ¾ÍÑ¡ÔñÁË¡°¼òÊé¡±Ö÷Ìâ,×Ô¼ºÔÙ×öÁËÒ»Ð©¶¨ÖÆ»¯µÄ¶«Î÷¡£
+åœ¨æ–°æµªäº‘å¹³å°ä¸Šç”¨wordpressæ­å»ºäº†ä¸€ä¸ªä¸ªäººåšå®¢:[é£ŽèŠ¯ã®ç«™ç‚¹][1]ã€‚è‡ªå·±æ¯”è¾ƒå´‡å°šç®€æ´ã€å®½å±çš„é£Žæ ¼å°±é€‰æ‹©äº†â€œç®€ä¹¦â€ä¸»é¢˜,è‡ªå·±å†åšäº†ä¸€äº›å®šåˆ¶åŒ–çš„ä¸œè¥¿ã€‚
 
-## Ö÷ÌâÔ¤ÀÀ
+## ä¸»é¢˜é¢„è§ˆ
 ------
-### Ö÷Ò³
-![index.png](E:/Git/GitHub/web/jianux_core/Jianux/images/index.png "")
+### ä¸»é¡µ
+![index.png](/Jianux/images/index.png "")
 ------
-### ²©¿ÍÒ³Ãæ
-![index.png](E:/Git/GitHub/web/jianux_core/Jianux/images/blog.png "")
+### åšå®¢é¡µé¢
+![index.png](/Jianux/images/blog.png "")
 
-## Ð´ÔÚ×îºó
-Ö÷Ìâ²¢²»ÍêÉÆ,ºóÐø»áÂýÂý¸üÐÂ¡£
+## å†™åœ¨æœ€åŽ
+ä¸»é¢˜å¹¶ä¸å®Œå–„,åŽç»­ä¼šæ…¢æ…¢æ›´æ–°ã€‚
