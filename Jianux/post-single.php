@@ -1,9 +1,24 @@
- <!--<div style="position:fixed;right:0;top:0;">
+ <div style="float:right;">
         <iframe width="240px;" height="550" class="share_self" frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=100&skin=11&isTitle=0&noborder=1&isWeibo=1&isFans=1&uid=3206206100&verifier=fd3040f8&dpc=1"></iframe>
-    </div>-->
-<!--git无法提交是什么情况-->
+    </div>
+
 <div class="container">
-	
+	<!-- Start Nav Structure -->
+	<!--
+				<button class="cn-button" id="cn-button"><font color="#ffffff">+</font></button>
+				<div class="cn-wrapper" id="cn-wrapper">
+				    <ul>
+				      <li><a href="#"><span class="icon-picture"></span></a></li>
+				      <li><a href="#"><span class="icon-headphones"></span></a></li>
+				      <li><a href="#"><span class="icon-home"></span></a></li>
+				      <li><a href="#"><span class="icon-facetime-video"></span></a></li>
+				      <li><a href="#"><span class="icon-envelope-alt"></span></a></li>
+				     </ul>
+				</div>
+				<div id="cn-overlay" class="cn-overlay"></div>
+	<script src="<?php bloginfo('template_url'); ?>/js/demo1.js"></script>
+-->
+				<!-- End Nav Structure -->
 <div class="article">
 <h1 class="single-title" itemprop="name"><?php the_title(); ?></h1> 
         <div class="article-info">
@@ -16,7 +31,6 @@
             <?php
                 the_content('');
             ?>
-			 <?php include(TEMPLATEPATH . '/share/share.php'); ?>
         </section>
         <div class="post-like">
          <a href="javascript:;" data-action="ding" data-id="<?php the_ID(); ?>" class="favorite<?php if(isset($_COOKIE['bigfa_ding_'.$post->ID])) echo ' done';?>"><i class="icon-heart"></i> 喜欢 <span class="count">

@@ -13,6 +13,14 @@
     </title>
     <link rel="shortcut icon" href="<?php echo home_url(); ?>/favicon.ico" type="image/x-icon" />
     <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+	<!--
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/component1.css" />
+    -->
+   <!-- <script src="<?php bloginfo('template_url'); ?>/js/polyfills.js"></script>
+    
+    <script src="<?php bloginfo('template_url'); ?>/js/modernizr-2.6.2.min.js"></script>-->
     <!--[if lte IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen, projection" />
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -20,8 +28,6 @@
     <!--[if lt IE 9]><link href="http://jianshu-prd.b0.upaiyun.com/assets/scaffolding/for_ie-79d1b60ced4f878cbdc0939de55c3be1.css" media="all" rel="stylesheet" /><![endif]-->
     <link rel="apple-touch-icon-precomposed" href="http://jianshu-prd.b0.upaiyun.com/assets/icon114-8e7ddf4d5e0e147eba0d35a809bcc235.png" />
     <?php if ( is_single() ) { ?>
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/share/share.css" />
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/share/share_roll.js"></script>
     <?php } ?>
     <?php wp_head(); ?>
 </head>
@@ -76,10 +82,11 @@
 -->
         <script>
             $(function() {
-				var flag = false;
-				function reset() {
-					if(flag)
-                      $('#music').remove();
+                var flag = false;
+
+                function reset() {
+                    if (flag)
+                        $('#music').remove();
                 }
                 $("#menu-primary-items").find("li").mouseenter(function(e) {
                     var index = parseInt(Math.floor(Math.random() * 6)) + 1;
@@ -88,9 +95,9 @@
                     $("body").append(music);
                 });
                 $("#menu-primary-items").find("li").mouseleave(function(e) {
-                   setTimeout("$('#music').remove()",500);    //鼠标移除的时候删除元素,不然页面元素过多影响性能。
+                    setTimeout("$('#music').remove()", 500); //鼠标移除的时候删除元素,不然页面元素过多影响性能。
                 });
-                
+
             });
         </script>
     </div>
